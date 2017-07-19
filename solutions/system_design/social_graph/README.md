@@ -257,8 +257,6 @@ $ curl https://social.com/api/v1/friend_search?person_id=1234
 
 讨论最初设计可能遇到的瓶颈和处理方法十分重要。例如，什么问题可以通过添加多台 **Web 服务器** 作为 **负载均衡** 解决？**CDN**？**主从副本**？每个问题都有哪些替代和 **折中** 方案？
 
-We'll introduce some components to complete the design and to address scalability issues.  Internal load balancers are not shown to reduce clutter.
-
 我们即将介绍一些组件来完成设计和解决扩展性问题。内部负载均衡不显示以减少混乱。
 
 **避免重复讨论**，以下网址链接到 [系统设计主题](https://github.com/donnemartin/system-design-primer#index-of-system-design-topics) 相关的主流方案、折中方案和替代方案。
